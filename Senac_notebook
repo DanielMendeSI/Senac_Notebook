@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main()
+{
+char nome[61];
+int peso;
+float altura;
+
+printf("digite seu primeiro nome:\n");
+scanf("%s", nome);
+
+printf("digite seu peso em Kilos:\n");
+scanf("%d", &peso);
+
+printf("digite sua altura\n");
+scanf("%f", &altura);
+
+printf("seus dados sao\nnome:%s \npeso:%d \naltura:%.2f", nome, peso, altura);
+return 0;
+}
